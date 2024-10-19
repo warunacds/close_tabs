@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabs</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="popup.js"></script>
+	<link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <!-- <h1>Close Unwated Tabs</h1> -->
+	<!-- <h3>Following Tabs will be closed.</h3> -->
+	<h1 id="count"></h1>
+    <ul id="tabList"></ul>
+	
+	<h2>Enter any other domain you like to close:</h2>
+	<input type="text" id="customDomainInput" placeholder="Enter domain, e.g., example.com" />
+	<button id="addCustomDomainButton">Add Custom Domain</button>
+	
+	
+	<h2>Stored Custom Domains:</h2>
+	<ul id="customDomainList"></ul>
+		
+	<button id="closeTabsButton" >Close Tabs</button>
+  </body>
+</html>

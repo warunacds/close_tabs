@@ -1,0 +1,56 @@
+body {
+  width: 20rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 1rem 0;
+}
+
+li {
+  padding: 8px;
+  font-size: 16px;
+  height: 24px;
+}
+li:nth-child(odd) {
+  background: #80808030;
+}
+li:nth-child(even) {
+  background: #ffffff;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+input {
+	margin: 1px;
+	width: 96%;
+	height: 24px;
+	margin-bottom: 12px;
+}
+
+button {
+	width: 100%;
+	background-color: beige;
+	height: 36px;
+}
+
+#closeTabsButton {
+	background-color: red;
+	color: white;
+}
+
+.remove-button {
+  background-color: transparent;  /* Make the button transparent */
+  border: none;  /* Remove the border */
+  color: gray;  /* Make the icon or text red */
+  cursor: pointer;  /* Change the cursor to pointer on hover */
+  font-size: 16px;  /* Adjust font size as needed */
+}
+
+.remove-button:hover {
+  color: darkred;  /* Change the color on hover for better UX */
+}

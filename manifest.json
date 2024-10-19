@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Close Vagrant Tabs",
+  "description": "Close tabs with google, youtube and other social networks open",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "extension_icon.png"
+  },
+   "permissions": [
+      	"tabs",
+		"storage"
+   ]	
+}
